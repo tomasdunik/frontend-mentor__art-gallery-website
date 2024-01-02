@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Outfit", sans-serif;
+}
+
+/* HEADING */
+.heading-xl {
+  font-size: 96px;
+  line-height: 88;
+  font-weight: 900;
+  text-transform: uppercase;
+  font-family: "Big Shoulders Display", sans-serif;
+}
+
+.heading-l {
+  font-size: 70px;
+  line-height: 70;
+  font-weight: 900;
+  text-transform: uppercase;
+  font-family: "Big Shoulders Display", sans-serif;
+}
+
+.heading-m {
+  font-size: 60px;
+  line-height: 50;
+  font-weight: 900;
+  text-transform: uppercase;
+  font-family: "Big Shoulders Display", sans-serif;
+}
+
+.heading-s {
+  font-size: 36px;
+  line-height: 36;
+  font-weight: 900;
+  text-transform: uppercase;
+  font-family: "Big Shoulders Display", sans-serif;
+}
+
+/* BODY */
+.body-m {
+  font-size: 22px;
+  line-height: 32;
+  font-weight: 300;
+}
+
+.body-s {
+  font-size: 18px;
+  line-height: 28;
+  font-weight: 300;
+}
+
+/* COLOR */
+.orange-bg {
+  background-color: #d5966c;
+}
+
+.black-bg {
+  background-color: #151515;
+}
+
+.grey-bg {
+  background-color: #444444;
+}
+
+.clr-white {
+  color: #fff;
+}
+
+.clr-gold:hover {
+  color: #d5966c;
+}
+
+/* BUTTON */
+
+.my-38 {
+  margin-top: 38px;
+  margin-bottom: 38px;
+}
+
+.mx-20 {
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.lh-26 {
+  line-height: 26px;
+}
+
+.fs-16 {
+  font-size: 16px;
+}
+
+footer {
+  padding: 48px 32px 48px 32px;
+}

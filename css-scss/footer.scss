@@ -1,0 +1,41 @@
+@import "./partials/mixins", "./partials/variables";
+
+.footer {
+  background-color: $black;
+  padding: 48px 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 38px;
+}
+
+.footer__logo {
+  max-width: 110.05px;
+}
+
+.footer__text {
+  @include body--xs;
+  color: $white;
+}
+
+.social__media {
+  display: flex;
+  gap: 1.25rem;
+}
+
+.svg--white:hover {
+  fill: $bronze;
+}
+
+@media screen and (min-width: 768px) {
+  .footer {
+    padding: 56px 40px;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 0;
+  }
+
+  .footer__text {
+    padding-left: 64px;
+    padding-right: 133px;
+  }
+}
