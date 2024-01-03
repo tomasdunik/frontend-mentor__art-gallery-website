@@ -1,0 +1,102 @@
+iframe {
+  height: 550px;
+}
+
+main {
+  background-color: #151515;
+}
+
+.main__content {
+  padding: 48px 32px 56px 32px;
+}
+
+.main__heading {
+  font-size: 50px;
+  line-height: 45px;
+  font-weight: 900;
+  text-transform: uppercase;
+  font-family: "Big Shoulders Display", sans-serif;
+  color: #ffffff;
+  padding-bottom: 48px;
+}
+
+.main__address {
+  gap: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.main__address--heading {
+  font-size: 32px;
+  line-height: 32px;
+  font-weight: 900;
+  text-transform: uppercase;
+  font-family: "Big Shoulders Display", sans-serif;
+  color: #d5966c;
+}
+
+.main__address--description {
+  color: #ffffff;
+  font-family: "Outfit", sans-serif;
+  font-size: 1.125rem;
+  font-weight: 300;
+  line-height: 28px;
+}
+
+.main__address--text {
+  color: #ffffff;
+  font-family: "Outfit", sans-serif;
+  font-size: 1.125rem;
+  font-weight: 300;
+  line-height: 28px;
+}
+
+@media screen and (min-width: 768px) {
+  .main__content {
+    display: flex;
+    gap: 68px;
+    padding: 88px 40px 80px 40px;
+  }
+  .main__heading {
+    font-size: 55px;
+    line-height: 50px;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-family: "Big Shoulders Display", sans-serif;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .main__content {
+    max-width: 1440px;
+    display: flex;
+    gap: 220px;
+    padding: 104px 165px 128px 165px;
+    margin: 0 auto;
+  }
+  .main__heading {
+    font-size: 70px;
+    line-height: 70px;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-family: "Big Shoulders Display", sans-serif;
+  }
+  .main__address--heading {
+    font-size: 36px;
+    line-height: 36px;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-family: "Big Shoulders Display", sans-serif;
+  }
+  .main__address--description {
+    font-size: 22px;
+    line-height: 32px;
+    font-weight: 300;
+    font-family: "Outfit", sans-serif;
+  }
+  .main__address--text {
+    font-size: 22px;
+    line-height: 32px;
+    font-weight: 300;
+    font-family: "Outfit", sans-serif;
+  }
+}/*# sourceMappingURL=main-location.css.map */

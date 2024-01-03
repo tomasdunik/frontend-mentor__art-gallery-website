@@ -1,5 +1,5 @@
 .footer {
-  background-color: #151515;
+  background-color: #d5966c;
 }
 
 .footer__content {
@@ -18,7 +18,7 @@
   font-size: 1rem;
   font-weight: 300;
   line-height: 1.625rem;
-  color: #ffffff;
+  color: #151515;
 }
 
 .social__media {
@@ -27,7 +27,7 @@
 }
 
 a:hover .svg--white {
-  fill: #d5966c;
+  fill: #ffffff;
   transition: all ease 0.2s;
 }
 
@@ -59,6 +59,6 @@ a:hover .svg--white {
     font-size: 1.125rem;
     font-weight: 300;
     line-height: 28px;
-    color: #ffffff;
+    color: #151515;
   }
-}/*# sourceMappingURL=footer.css.map */
+}/*# sourceMappingURL=footer-location.css.map */

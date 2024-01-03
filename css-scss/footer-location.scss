@@ -1,7 +1,7 @@
 @import "./partials/mixins", "./partials/variables";
 
 .footer {
-  background-color: $black;
+  background-color: $bronze;
 }
 
 .footer__content {
@@ -17,7 +17,7 @@
 
 .footer__text {
   @include body--xs;
-  color: $white;
+  color: $black;
 }
 
 .social__media {
@@ -26,7 +26,7 @@
 }
 
 a:hover .svg--white {
-  fill: $bronze;
+  fill: $white;
   transition: all ease 0.2s;
 }
 
@@ -59,6 +59,6 @@ a:hover .svg--white {
     padding-left: 8.75rem;
     padding-right: 17.5rem;
     @include body--s;
-    color: $white;
+    color: $black;
   }
 }

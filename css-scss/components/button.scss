@@ -1,0 +1,50 @@
+.button__location {
+  display: flex;
+  /* width: 260px; */
+  text-decoration: none;
+}
+
+.button__back {
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+  position: fixed;
+}
+
+.button__location--text {
+  text-transform: uppercase;
+  color: #fff;
+  background-color: #151515;
+  font-family: "Big Shoulders Display", sans-serif;
+  font-size: 20px;
+  letter-spacing: 3.64px;
+  line-height: 24px;
+  padding: 24px 35px 24px 32px;
+  font-weight: 800;
+  transition: all ease 0.2s;
+}
+
+.button__location--arrow {
+  background-color: #d5966c;
+  padding: 24px;
+  transition: all ease 0.2s;
+}
+
+.button__location:hover .button__location--arrow {
+  background-color: #151515;
+}
+
+.button__location:hover .button__location--text {
+  background-color: #d5966c;
+}
+
+@media screen and (min-width: 768px) {
+  .button__location--location {
+    padding-left: 39px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .button__location--location {
+    padding-left: 10.83%;
+  }
+}

@@ -1,0 +1,9 @@
+iframe {
+  height: 550px;
+}
+
+@media screen and (min-width: 768px) {
+  iframe {
+    height: 600px;
+  }
+}/*# sourceMappingURL=header-location.css.map */

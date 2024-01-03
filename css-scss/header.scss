@@ -1,0 +1,86 @@
+@import "./partials/mixins", "./partials/variables";
+
+.header__box {
+  padding: 2rem 1rem 7.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.header__heading {
+  @include heading--m;
+  max-width: 481px;
+}
+
+.header__description {
+  @include body--s;
+  margin-bottom: 2rem;
+}
+
+.image__hero {
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .header__content {
+    display: flex;
+  }
+
+  .image__hero {
+    width: 57vw;
+  }
+
+  .header__box {
+    gap: 48px;
+    padding: 18.9vw 40px 0 50.7vw;
+    position: absolute;
+  }
+
+  .header__heading {
+    @include heading--l;
+  }
+
+  .header__description {
+    @include body--s;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .header {
+    background: linear-gradient(to right, $black 50%, $white 50%);
+  }
+
+  .header__content {
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+
+  .image__hero {
+    width: 540px;
+    margin-left: 450px;
+  }
+
+  .header__box {
+    gap: 246px;
+    padding: 189px 0 0 165px;
+    position: absolute;
+    flex-direction: row;
+  }
+
+  .header__heading {
+    @include heading--xl;
+    max-width: 514px;
+    color: white;
+    mix-blend-mode: difference;
+  }
+
+  .header__description--container {
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+  }
+  .header__description {
+    @include body--m;
+    max-width: 350px;
+  }
+}
