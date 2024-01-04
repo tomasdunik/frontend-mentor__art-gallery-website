@@ -1,1 +1,232 @@
-/*# sourceMappingURL=main.css.map */
+.main__content {
+  padding: 0 16px 120px 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 11px;
+}
+
+.main__first-line {
+  display: flex;
+  gap: 25px;
+  align-items: center;
+  flex-direction: column-reverse;
+}
+
+.main__text-box-1 {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.text-box-1--heading {
+  font-size: 50px;
+  line-height: 45px;
+  font-weight: 900;
+  text-transform: uppercase;
+  font-family: "Big Shoulders Display", sans-serif;
+}
+
+.text-box-1--text {
+  font-family: "Outfit", sans-serif;
+  font-size: 1.125rem;
+  font-weight: 300;
+  line-height: 28px;
+}
+
+.text-box-2--heading {
+  font-size: 50px;
+  line-height: 45px;
+  font-weight: 900;
+  text-transform: uppercase;
+  font-family: "Big Shoulders Display", sans-serif;
+  color: #ffffff;
+}
+
+.text-box-2--text {
+  font-family: "Outfit", sans-serif;
+  font-size: 1.125rem;
+  font-weight: 300;
+  line-height: 28px;
+  color: #ffffff;
+}
+
+.main__img-1 {
+  width: 100%;
+}
+
+.main__img-2 {
+  width: 100%;
+}
+
+.main__img-3 {
+  width: 100%;
+}
+
+.main__second-line {
+  display: flex;
+  gap: 16px;
+  flex-direction: column;
+  margin-top: 32px;
+}
+
+.main__second-line__second-half {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.main__text-box-2 {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  background-color: #151515;
+  padding: 48px 24px 47px 24px;
+}
+
+@media screen and (min-width: 768px) {
+  .main__content {
+    padding: 120px 40px 120px 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 11px;
+    max-width: 768px;
+    margin: 0 auto;
+  }
+  .main__first-line {
+    display: flex;
+    gap: 68px;
+    align-items: center;
+    flex-direction: row;
+  }
+  .main__text-box-1 {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    min-width: 223px;
+  }
+  .text-box-1--heading {
+    font-size: 50px;
+    line-height: 45px;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-family: "Big Shoulders Display", sans-serif;
+  }
+  .text-box-1--text {
+    font-family: "Outfit", sans-serif;
+    font-size: 1.125rem;
+    font-weight: 300;
+    line-height: 28px;
+  }
+  .text-box-2--heading {
+    font-size: 50px;
+    line-height: 45px;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-family: "Big Shoulders Display", sans-serif;
+    color: #ffffff;
+  }
+  .text-box-2--text {
+    font-family: "Outfit", sans-serif;
+    font-size: 1.125rem;
+    font-weight: 300;
+    line-height: 28px;
+    color: #ffffff;
+  }
+  .main__img-1 {
+    min-width: 398px;
+  }
+  .main__img-2 {
+    min-width: 398px;
+  }
+  .main__img-3 {
+    min-width: 280px;
+  }
+  .main__second-line {
+    display: flex;
+    gap: 11px;
+    margin-top: 0;
+    flex-direction: row;
+  }
+  .main__second-line__second-half {
+    display: flex;
+    flex-direction: column;
+    gap: 11px;
+  }
+  .main__text-box-2 {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    background-color: #151515;
+    padding: 85px 28px 85px 29px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .main__content {
+    max-width: 1440px;
+    padding: 180px 165px 180px 165px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  .main__first-line {
+    display: flex;
+    gap: 125px;
+    align-items: center;
+  }
+  .main__text-box-1 {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    gap: 32px;
+  }
+  .text-box-1--heading {
+    font-size: 60px;
+    line-height: 55px;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-family: "Big Shoulders Display", sans-serif;
+  }
+  .text-box-1--text {
+    font-size: 22px;
+    line-height: 32px;
+    font-weight: 300;
+    font-family: "Outfit", sans-serif;
+  }
+  .text-box-2--heading {
+    font-size: 60px;
+    line-height: 55px;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-family: "Big Shoulders Display", sans-serif;
+    color: #ffffff;
+  }
+  .text-box-2--text {
+    font-size: 22px;
+    line-height: 32px;
+    font-weight: 300;
+    font-family: "Outfit", sans-serif;
+    color: #ffffff;
+  }
+  .main__img {
+    width: 100%;
+  }
+  .main__second-line {
+    display: flex;
+    gap: 30px;
+  }
+  .main__second-line__second-half {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  .main__text-box-2 {
+    display: flex;
+    flex-direction: column;
+    width: 445px;
+    height: 377px;
+    gap: 32px;
+    background-color: #151515;
+    padding: 65px 47px 64px 48px;
+  }
+}/*# sourceMappingURL=main.css.map */

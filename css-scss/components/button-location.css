@@ -7,7 +7,7 @@
 .button__back {
   flex-direction: row-reverse;
   justify-content: flex-end;
-  position: fixed;
+  position: absolute;
 }
 
 .button__location--text {
@@ -44,6 +44,6 @@
 }
 @media screen and (min-width: 1440px) {
   .button__location--location {
-    padding-left: 10.83%;
+    padding-left: 0;
   }
 }/*# sourceMappingURL=button-location.css.map */
